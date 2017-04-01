@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.robertsimoes.socialsharing.MainActivity">
+    <Button
+        android:onClick="facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:id="@+id/button_facebook"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:onClick="twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Twitter"
+        android:id="@+id/button_twitter"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:onClick="reddit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reddit"
+        android:id="@+id/button_reddit"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:onClick="plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Plus"
+        android:id="@+id/button_gplus"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:onClick="linkedin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linkedin"
+        android:id="@+id/button_linkedin"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:onClick="messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Messages"
+        android:id="@+id/button_messages"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:onClick="email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/button_email"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:onClick="tumblr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tumblr"
+        android:id="@+id/button_tumblr"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:onClick="defaultAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Default"
+        android:id="@+id/button_default"
+        android:layout_centerHorizontal="true"/>
+
+</LinearLayout>
