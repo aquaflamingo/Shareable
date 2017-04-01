@@ -1,4 +1,4 @@
-# Social Sharing
+# Shareable
 
 ## Intro 
 
@@ -12,7 +12,7 @@ If the app is not available the default is to use all `Intent.ACTION_SEND` apps 
 
 ## Install
 
-[![](https://jitpack.io/v/robertsimoes/SocialSharing.svg)](https://jitpack.io/#robertsimoes/SocialSharing) Via [Jitpack.io](http://jitpack.io)
+[![](https://jitpack.io/v/robertsimoes/Shareable.svg)](https://jitpack.io/#robertsimoes/Shareable) Via [Jitpack.io](http://jitpack.io)
 
 in root project build.gradle
 ```
@@ -27,7 +27,7 @@ allprojects {
 in app project build.gradle
 ```
 dependencies {
-	        compile 'com.github.robertsimoes:SocialSharing:0.1.0'
+	        compile 'com.github.robertsimoes:Shareable:0.1.0'
 	}
 ```
 
