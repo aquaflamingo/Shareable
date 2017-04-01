@@ -10,6 +10,27 @@ The API is design to allow you to specify specific social channels to share to u
 
 If the app is not available the default is to use all `Intent.ACTION_SEND` apps on the phone.
 
+## Install
+
+[![](https://jitpack.io/v/robertsimoes/SocialSharing.svg)](https://jitpack.io/#robertsimoes/SocialSharing) Via [Jitpack.io](http://jitpack.io)
+
+in root project build.gradle
+```
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
+```
+
+in app project build.gradle
+```
+dependencies {
+	        compile 'com.github.robertsimoes:SocialSharing:0.1.0'
+	}
+```
+
 ## Usage
 ### Basic Text Post
 ```
