@@ -11,7 +11,7 @@ The API is design to allow you to specify specific social channels to share to u
 If the app is not available the default is to use all `Intent.ACTION_SEND` apps on the phone.
 
 ## Install
-
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Shareable-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5570) 
 [![](https://jitpack.io/v/robertsimoes/Shareable.svg)](https://jitpack.io/#robertsimoes/Shareable) Via [Jitpack.io](http://jitpack.io)
 
 in root project build.gradle
