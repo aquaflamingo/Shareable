@@ -64,10 +64,6 @@ imageShare.share();
 [LinkedIn](http://linkedin.com)   
 [Reddit (tbd)](http://reddit.com)   
 
-## Author
-
-This work is authored by [Robert Simoes](http://robertsimoes.com)
-
 ## License
 
 Shareable is open-sourced under [MIT-License](https://opensource.org/licenses/MIT).
