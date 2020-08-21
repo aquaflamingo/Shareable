@@ -1,5 +1,7 @@
 # Shareable
 
+Deprecated - I am no longer maintaining this library. 
+
 ## Intro 
 
 Social Sharing is a small android library to help implement direct share and social media actions into your android app.
